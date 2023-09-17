@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "clustering"
+version = "0.1.0"
+description = ""
+authors = ["Jovanney <100790418+Jovanney@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.1.0"
+scikit-learn-extra = "^0.3.0"
+ipykernel = "^6.25.2"
+matplotlib = "^3.8.0"
+yellowbrick = "^1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
